@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "phase": "1.1",
+    "description": "Data Sourcing & Collection — HDFC Mutual Fund schemes",
+    "amc": "HDFC Mutual Fund",
+    "total_urls": 5,
+    "successful_scrapes": 5,
+    "failed_scrapes": 0,
+    "run_timestamp": "2026-05-13T21:32:02.026664"
+  },
+  "funds": [
+    {
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "document_type": "fund_page",
+      "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+      "category": "Equity",
+      "sub_category": "Mid Cap",
+      "risk_level": "Very High Risk",
+      "nav": "₹216.62",
+      "min_sip_amount": "₹100",
+      "min_lumpsum_amount": "₹100",
+      "aum": "₹94,744.72 Cr",
+      "expense_ratio": "0.75%",
+      "exit_load": "Exit load of 1% if redeemed within 1 year.",
+      "benchmark_index": "NIFTY Midcap 150 Total Return Index",
+      "fund_managers": [
+        "Chirag Setalvad",
+        "Dhruv Muchhal"
+      ],
+      "elss_lock_in_period": null,
+      "last_updated_date": "2026-05-13",
+      "scrape_status": "success",
+      "scrape_errors": [
+        "Missing field: elss_lock_in_period"
+      ]
+    },
+    {
+      "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "document_type": "fund_page",
+      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "risk_level": "Very High Risk",
+      "nav": "₹2,104.74",
+      "min_sip_amount": "₹100",
+      "min_lumpsum_amount": "₹100",
+      "aum": "₹1,00,479.23 Cr",
+      "expense_ratio": "0.99%",
+      "exit_load": "Exit load of 1% if redeemed within 1 year",
+      "benchmark_index": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        "Dhruv Muchhal",
+        "Amit Ganatra"
+      ],
+      "elss_lock_in_period": null,
+      "last_updated_date": "2026-05-13",
+      "scrape_status": "success",
+      "scrape_errors": [
+        "Missing field: elss_lock_in_period"
+      ]
+    },
+    {
+      "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+      "document_type": "fund_page",
+      "scheme_name": "HDFC Focused Fund Direct Growth",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "risk_level": "Very High Risk",
+      "nav": "₹249.54",
+      "min_sip_amount": "₹100",
+      "min_lumpsum_amount": "₹100",
+      "aum": "₹26,182.15 Cr",
+      "expense_ratio": "0.77%",
+      "exit_load": "Exit load of 1% if redeemed within 1 year",
+      "benchmark_index": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        "Dhruv Muchhal",
+        "Amit Ganatra"
+      ],
+      "elss_lock_in_period": null,
+      "last_updated_date": "2026-05-13",
+      "scrape_status": "success",
+      "scrape_errors": [
+        "Missing field: elss_lock_in_period"
+      ]
+    },
+    {
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "document_type": "fund_page",
+      "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "category": "ELSS • 3Y Lock-in",
+      "sub_category": "ELSS",
+      "risk_level": "Very High Risk",
+      "nav": "₹1,423.38",
+      "min_sip_amount": "₹500",
+      "min_lumpsum_amount": "₹500",
+      "aum": "₹15,559.49 Cr",
+      "expense_ratio": "1.11%",
+      "exit_load": "Nil",
+      "benchmark_index": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        "Amar Kalkundrikar",
+        "Dhruv Muchhal"
+      ],
+      "elss_lock_in_period": "3 years (mandatory under Section 80C)",
+      "last_updated_date": "2026-05-13",
+      "scrape_status": "success",
+      "scrape_errors": []
+    },
+    {
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "document_type": "fund_page",
+      "scheme_name": "HDFC Large Cap Fund Direct Growth",
+      "category": "Equity",
+      "sub_category": "Large Cap",
+      "risk_level": "Very High Risk",
+      "nav": "₹1,162.42",
+      "min_sip_amount": "₹100",
+      "min_lumpsum_amount": "₹100",
+      "aum": "₹38,121.27 Cr",
+      "expense_ratio": "1.09%",
+      "exit_load": "Exit load of 1% if redeemed within 1 year",
+      "benchmark_index": "NIFTY 100 Total Return Index",
+      "fund_managers": [
+        "Rahul Baijal",
+        "Dhruv Muchhal"
+      ],
+      "elss_lock_in_period": null,
+      "last_updated_date": "2026-05-13",
+      "scrape_status": "success",
+      "scrape_errors": [
+        "Missing field: elss_lock_in_period"
+      ]
+    }
+  ]
+}

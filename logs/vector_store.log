@@ -1,0 +1,162 @@
+2026-05-12 22:30:11,839 [INFO] ============================================================
+2026-05-12 22:30:11,839 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-12 22:30:11,840 [INFO] ============================================================
+2026-05-12 22:30:11,847 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-12 22:30:11,848 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-12 22:30:25,290 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 0)
+2026-05-12 22:30:25,291 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-12 22:30:25,358 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-12 22:30:25,359 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-12 22:30:25,360 [INFO] ============================================================
+2026-05-12 22:30:25,360 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-12 22:30:25,360 [INFO] Collection            : hdfc_mutual_funds
+2026-05-12 22:30:25,360 [INFO] Documents ingested    : 26
+2026-05-12 22:30:25,361 [INFO] Total in collection   : 26
+2026-05-12 22:30:25,361 [INFO] ============================================================
+2026-05-12 22:30:40,376 [INFO] Running smoke test queries...
+2026-05-12 22:30:40,377 [INFO] Use pytorch device_name: cpu
+2026-05-12 22:30:40,377 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-12 22:31:43,481 [INFO] ============================================================
+2026-05-12 22:31:43,481 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-12 22:31:43,482 [INFO] ============================================================
+2026-05-12 22:31:43,487 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-12 22:31:43,487 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-12 22:31:43,662 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-12 22:31:43,662 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-12 22:31:43,699 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-12 22:31:43,701 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-12 22:31:43,701 [INFO] ============================================================
+2026-05-12 22:31:43,701 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-12 22:31:43,702 [INFO] Collection            : hdfc_mutual_funds
+2026-05-12 22:31:43,702 [INFO] Documents ingested    : 26
+2026-05-12 22:31:43,702 [INFO] Total in collection   : 26
+2026-05-12 22:31:43,702 [INFO] ============================================================
+2026-05-12 22:31:48,809 [INFO] Running smoke test queries...
+2026-05-12 22:31:48,810 [INFO] Use pytorch device_name: cpu
+2026-05-12 22:31:48,810 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 12:07:50,754 [INFO] ============================================================
+2026-05-13 12:07:50,756 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 12:07:50,756 [INFO] ============================================================
+2026-05-13 12:07:50,765 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 12:07:50,765 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 12:07:51,125 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 12:07:51,125 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 12:07:51,184 [INFO] Upsert complete. Collection now contains 36 documents.
+2026-05-13 12:07:51,186 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 12:07:51,186 [INFO] ============================================================
+2026-05-13 12:07:51,187 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 12:07:51,187 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 12:07:51,187 [INFO] Documents ingested    : 26
+2026-05-13 12:07:51,187 [INFO] Total in collection   : 36
+2026-05-13 12:07:51,187 [INFO] ============================================================
+2026-05-13 12:07:56,493 [INFO] Running smoke test queries...
+2026-05-13 12:07:56,494 [INFO] Use pytorch device_name: cpu
+2026-05-13 12:07:56,494 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 12:18:32,501 [INFO] ============================================================
+2026-05-13 12:18:32,501 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 12:18:32,501 [INFO] ============================================================
+2026-05-13 12:18:32,508 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 12:18:32,508 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 12:18:32,768 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 0)
+2026-05-13 12:18:32,768 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 12:18:32,884 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 12:18:32,888 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 12:18:32,889 [INFO] ============================================================
+2026-05-13 12:18:32,889 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 12:18:32,889 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 12:18:32,889 [INFO] Documents ingested    : 26
+2026-05-13 12:18:32,889 [INFO] Total in collection   : 26
+2026-05-13 12:18:32,889 [INFO] ============================================================
+2026-05-13 12:18:52,772 [INFO] Running smoke test queries...
+2026-05-13 12:18:52,775 [INFO] Use pytorch device_name: cpu
+2026-05-13 12:18:52,776 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 13:11:05,025 [INFO] ============================================================
+2026-05-13 13:11:05,026 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 13:11:05,026 [INFO] ============================================================
+2026-05-13 13:11:05,038 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 13:11:05,039 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 13:11:05,663 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 13:11:05,664 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 13:11:05,842 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 13:11:05,843 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 13:11:05,844 [INFO] ============================================================
+2026-05-13 13:11:05,844 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 13:11:05,844 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 13:11:05,844 [INFO] Documents ingested    : 26
+2026-05-13 13:11:05,844 [INFO] Total in collection   : 26
+2026-05-13 13:11:05,845 [INFO] ============================================================
+2026-05-13 13:11:27,357 [INFO] Running smoke test queries...
+2026-05-13 13:11:27,361 [INFO] Use pytorch device_name: cpu
+2026-05-13 13:11:27,361 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 13:11:44,609 [INFO] ============================================================
+2026-05-13 13:11:44,609 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 13:11:44,609 [INFO] ============================================================
+2026-05-13 13:11:44,617 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 13:11:44,617 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 13:11:44,872 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 13:11:44,873 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 13:11:44,950 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 13:11:44,954 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 13:11:44,954 [INFO] ============================================================
+2026-05-13 13:11:44,954 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 13:11:44,954 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 13:11:44,954 [INFO] Documents ingested    : 26
+2026-05-13 13:11:44,955 [INFO] Total in collection   : 26
+2026-05-13 13:11:44,955 [INFO] ============================================================
+2026-05-13 13:12:05,571 [INFO] Running smoke test queries...
+2026-05-13 13:12:05,574 [INFO] Use pytorch device_name: cpu
+2026-05-13 13:12:05,575 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 21:27:50,242 [INFO] ============================================================
+2026-05-13 21:27:50,243 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 21:27:50,243 [INFO] ============================================================
+2026-05-13 21:27:50,247 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 21:27:50,247 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:27:50,490 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 21:27:50,490 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 21:27:50,522 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 21:27:50,524 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 21:27:50,524 [INFO] ============================================================
+2026-05-13 21:27:50,524 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:27:50,524 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 21:27:50,524 [INFO] Documents ingested    : 26
+2026-05-13 21:27:50,525 [INFO] Total in collection   : 26
+2026-05-13 21:27:50,525 [INFO] ============================================================
+2026-05-13 21:27:54,324 [INFO] Running smoke test queries...
+2026-05-13 21:27:54,324 [INFO] Use pytorch device_name: cpu
+2026-05-13 21:27:54,324 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 21:28:54,829 [INFO] ============================================================
+2026-05-13 21:28:54,829 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 21:28:54,830 [INFO] ============================================================
+2026-05-13 21:28:54,835 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 21:28:54,835 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:28:54,975 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 21:28:54,976 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 21:28:55,005 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 21:28:55,006 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 21:28:55,006 [INFO] ============================================================
+2026-05-13 21:28:55,006 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:28:55,006 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 21:28:55,006 [INFO] Documents ingested    : 26
+2026-05-13 21:28:55,006 [INFO] Total in collection   : 26
+2026-05-13 21:28:55,006 [INFO] ============================================================
+2026-05-13 21:28:58,722 [INFO] Running smoke test queries...
+2026-05-13 21:28:58,722 [INFO] Use pytorch device_name: cpu
+2026-05-13 21:28:58,722 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-05-13 21:32:17,872 [INFO] ============================================================
+2026-05-13 21:32:17,872 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-05-13 21:32:17,872 [INFO] ============================================================
+2026-05-13 21:32:17,879 [INFO] Loaded 26 embedded chunks from embedded_chunks.json
+2026-05-13 21:32:17,879 [INFO] Connecting to ChromaDB at: C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:32:18,052 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 26)
+2026-05-13 21:32:18,053 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-05-13 21:32:18,089 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-05-13 21:32:18,089 [INFO] Manifest saved to: C:\Grow Chatbot\data\vectorstore\manifest.json
+2026-05-13 21:32:18,089 [INFO] ============================================================
+2026-05-13 21:32:18,089 [INFO] Vector store ready at : C:\Grow Chatbot\data\vectorstore
+2026-05-13 21:32:18,089 [INFO] Collection            : hdfc_mutual_funds
+2026-05-13 21:32:18,089 [INFO] Documents ingested    : 26
+2026-05-13 21:32:18,089 [INFO] Total in collection   : 26
+2026-05-13 21:32:18,089 [INFO] ============================================================
+2026-05-13 21:32:28,283 [INFO] Running smoke test queries...
+2026-05-13 21:32:28,287 [INFO] Use pytorch device_name: cpu
+2026-05-13 21:32:28,288 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en

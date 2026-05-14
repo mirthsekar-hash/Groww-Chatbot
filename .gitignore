@@ -1,0 +1,23 @@
+# ChromaDB binary — rebuilt from JSON data files on each pipeline run
+data/vectorstore/chroma.sqlite3
+data/vectorstore/*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Playwright browser cache
+ms-playwright/
+
+# Logs (committed selectively by the workflow)
+# logs/
+
+# Hugging Face model cache
+.cache/
+
+# Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/

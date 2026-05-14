@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HDFC Mutual Fund FAQ — Facts-only</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <header class="header">
+        <h1>HDFC Mutual Fund FAQ Assistant</h1>
+        <p class="subtitle">
+          Answers from curated Groww scheme pages — verification-first, no advice.
+        </p>
+      </header>
+
+      <aside class="disclaimer" role="note" aria-label="Disclaimer">
+        Facts-only. No investment advice.
+      </aside>
+
+      <main class="chat-panel">
+        <section id="welcome" class="welcome">
+          <p class="welcome-text">
+            Welcome. Ask factual questions about the five supported HDFC Mutual Fund schemes
+            (Mid Cap, Flexi Cap, Focused, ELSS Tax Saver, Large Cap). Tap an example below or type your question.
+          </p>
+          <div class="examples" role="group" aria-label="Example questions">
+            <button type="button" class="chip" data-query="What is the exit load for HDFC Mid Cap Fund?">
+              Exit load — HDFC Mid Cap
+            </button>
+            <button type="button" class="chip" data-query="What is the riskometer rating for HDFC Large Cap Fund?">
+              Riskometer — HDFC Large Cap
+            </button>
+            <button type="button" class="chip" data-query="What is the minimum SIP amount for HDFC ELSS Tax Saver Fund?">
+              Minimum SIP — HDFC ELSS
+            </button>
+          </div>
+        </section>
+
+        <div id="messages" class="messages" aria-live="polite" aria-relevant="additions"></div>
+
+        <form id="chat-form" class="composer" autocomplete="off">
+          <label class="sr-only" for="user-input">Your question</label>
+          <textarea
+            id="user-input"
+            name="message"
+            maxlength="500"
+            rows="2"
+            placeholder="Ask a factual question (max 500 characters)…"
+          ></textarea>
+          <button type="submit" id="send-btn">Send</button>
+        </form>
+        <p id="char-count" class="char-count" aria-live="polite">0 / 500</p>
+      </main>
+
+      <footer class="footer-disclaimer">
+        Facts-only. No investment advice.
+      </footer>
+    </div>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>

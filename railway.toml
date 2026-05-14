@@ -1,0 +1,10 @@
+# https://docs.railway.com/reference/config-as-code
+# Backend lives at repository root (FastAPI `src.chat_app:app`), not in `backend/`.
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python -m uvicorn src.chat_app:app --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"

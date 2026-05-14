@@ -1,0 +1,3 @@
+# Railway Nixpacks — align Python with CI (see .github/workflows/refresh_data.yml).
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.11"

@@ -1,0 +1,99 @@
+name: Scheduled Data Refresh
+
+# Runs daily at 09:15 IST (= 03:45 UTC). GitHub `schedule` uses UTC only.
+# Can also be triggered manually from the GitHub Actions UI at any time.
+on:
+  schedule:
+    - cron: '45 3 * * *'
+  workflow_dispatch:
+
+# Required so GITHUB_TOKEN can push the commit from this workflow (default is read-only).
+permissions:
+  contents: write
+
+# Prevent two refresh runs from colliding and corrupting the vector store.
+# cancel-in-progress: false ensures an in-flight refresh always completes.
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Phase 1.5 — Data Refresh (Scrape → Chunk → Enrich → Embed → Store)
+    runs-on: ubuntu-latest
+
+    steps:
+      # ---------------------------------------------------------------
+      # 1. Checkout repository
+      #    fetch-depth: 0 required so the commit-back step can push
+      # ---------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ---------------------------------------------------------------
+      # 2. Set up Python 3.11
+      #    3.11 chosen for stable pre-built wheels (torch, chromadb, etc.)
+      # ---------------------------------------------------------------
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ---------------------------------------------------------------
+      # 3. Install Python dependencies
+      # ---------------------------------------------------------------
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ---------------------------------------------------------------
+      # 4. Install Playwright Chromium
+      #    --with-deps installs OS-level browser dependencies on Ubuntu
+      # ---------------------------------------------------------------
+      - name: Install Playwright Chromium
+        run: python -m playwright install chromium --with-deps
+
+      # ---------------------------------------------------------------
+      # 5. Dry-run: print all pipeline steps without executing
+      #    Useful for debugging the workflow without side effects
+      # ---------------------------------------------------------------
+      - name: Dry-run check
+        run: python src/pipeline_runner.py --dry-run
+
+      # ---------------------------------------------------------------
+      # 6. Run the full Phase 1.1 → 1.4 pipeline via the orchestrator.
+      #    If any step fails, this step exits non-zero and the workflow
+      #    is marked as failed. Existing data files are left untouched.
+      # ---------------------------------------------------------------
+      - name: Run full refresh pipeline
+        run: python src/pipeline_runner.py
+
+      # ---------------------------------------------------------------
+      # 7. Commit updated data files back to the repository.
+      #    - chroma.sqlite3 is excluded via .gitignore (rebuilt each run)
+      #    - JSON data files and manifest are committed for audit trail
+      #    - Only commits if files actually changed (idempotent)
+      # ---------------------------------------------------------------
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/scraped_data.json
+          git add data/processed/chunks.json
+          git add data/processed/enriched_chunks.json
+          git add data/processed/embedded_chunks.json
+          git add data/vectorstore/manifest.json
+          git add logs/
+          git diff --cached --quiet \
+            || git commit -m "chore: scheduled data refresh — $(date -u '+%Y-%m-%d')"
+
+      # ---------------------------------------------------------------
+      # 8. Push committed changes back to the triggering branch
+      # ---------------------------------------------------------------
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
