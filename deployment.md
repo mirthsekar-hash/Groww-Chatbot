@@ -87,8 +87,16 @@ git push -u origin main
 
 5. Configure:
 
-   * Framework Preset → Next.js
-   * Root Directory → frontend
+   * Framework Preset → **Next.js**
+   * **Root Directory → `frontend`** (required — do not leave as `.` / repo root)
+
+   If Root Directory is the repo root, Vercel scans `requirements.txt` and `src/*.py` and tries to deploy **FastAPI** on Vercel, which fails with:
+
+   `No FastAPI entrypoint found in standard locations...`
+
+   The API belongs on **Railway** only; Vercel should host **`frontend/`** only.
+
+6. After changing Root Directory, **Redeploy** (Settings → General → Root Directory → Save, then Deployments → Redeploy).
 
 ---
 
@@ -427,6 +435,20 @@ Fix:
 * Ensure correct root directory
 * Ensure package.json exists
 * Verify requirements.txt exists
+
+---
+
+## `No FastAPI entrypoint found` on Vercel
+
+**Cause:** Vercel project **Root Directory** is the repository root (`.`), not `frontend/`. Vercel auto-detects Python and looks for `app.py`, while this repo’s API is `src/chat_app.py` and is meant for **Railway**.
+
+**Fix:**
+
+1. Vercel → your project → **Settings** → **General** → **Root Directory** → set to **`frontend`** → **Save**.
+2. **Redeploy** the latest commit.
+3. Do **not** deploy the FastAPI app on Vercel; use **Railway** with `python -m uvicorn src.chat_app:app` (see Backend Deployment above).
+
+If you must keep Root Directory at repo root (not recommended), the repo includes root `vercel.json` + `package.json` that build `frontend/` and `.vercelignore` to skip Python files — **using Root Directory `frontend` is still the correct setup.**
 
 ---
 

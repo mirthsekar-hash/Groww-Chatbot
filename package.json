@@ -1,0 +1,9 @@
+{
+  "name": "grow-chatbot",
+  "private": true,
+  "description": "Monorepo: deploy frontend/ on Vercel, API on Railway. Prefer Vercel Root Directory = frontend.",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "dev": "npm run dev --prefix frontend"
+  }
+}

@@ -1,0 +1,13 @@
+# Backend / Python — hosted on Railway, not Vercel (avoids FastAPI auto-detection when root is wrong).
+requirements.txt
+Procfile
+railway.toml
+nixpacks.toml
+src/
+data/
+logs/
+web/
+docs/
+screens/
+setup.bat
+*.py
