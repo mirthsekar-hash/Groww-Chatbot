@@ -283,6 +283,67 @@ def save_store_manifest(chunks: list[dict], stats: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Bootstrap (Railway / fresh deploy — chroma.sqlite3 is not in git)
+# ---------------------------------------------------------------------------
+
+def get_chroma_document_count() -> int:
+    """Return document count in the HDFC collection, or 0 if missing / empty."""
+    try:
+        client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
+        collection = client.get_collection(name=COLLECTION_NAME)
+        return int(collection.count())
+    except Exception:
+        return 0
+
+
+def bootstrap_vector_store(*, run_smoke_test: bool = False) -> int:
+    """
+    Ensure ChromaDB has embedded chunks from data/processed/embedded_chunks.json.
+
+    Railway and other hosts do not ship chroma.sqlite3 (gitignored). On each
+    deploy the store is rebuilt from the committed JSON artifact.
+
+    Returns:
+        Final document count in the collection.
+
+    Raises:
+        FileNotFoundError: embedded_chunks.json missing from the image.
+        RuntimeError: ingest produced zero documents.
+    """
+    existing = get_chroma_document_count()
+    if existing > 0:
+        logger.info("Vector store already has %s documents; skipping bootstrap.", existing)
+        return existing
+
+    if not INPUT_FILE.is_file():
+        raise FileNotFoundError(
+            f"Cannot bootstrap vector store: {INPUT_FILE} not found. "
+            "Commit data/processed/embedded_chunks.json or run the data pipeline."
+        )
+
+    logger.info("Bootstrapping ChromaDB from %s …", INPUT_FILE.name)
+    with open(INPUT_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+    chunks: list[dict] = data.get("chunks", [])
+    if not chunks:
+        raise RuntimeError(f"No chunks in {INPUT_FILE}")
+
+    client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
+    collection = get_or_create_collection(client)
+    stats = ingest(collection, chunks)
+    save_store_manifest(chunks, stats)
+
+    count = int(stats["collection_count"])
+    if count <= 0:
+        raise RuntimeError("Vector store bootstrap completed with zero documents.")
+
+    logger.info("Vector store bootstrap complete: %s documents.", count)
+    if run_smoke_test:
+        smoke_test(collection)
+    return count
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -299,40 +360,18 @@ def run_vector_store() -> None:
     logger.info("Phase 1.4 — Vector Storage (ChromaDB)")
     logger.info("=" * 60)
 
-    if not INPUT_FILE.exists():
-        logger.error(f"Input file not found: {INPUT_FILE}")
+    try:
+        count = bootstrap_vector_store(run_smoke_test=True)
+    except FileNotFoundError:
+        logger.error("Input file not found: %s", INPUT_FILE)
         logger.error("Run Phase 1.4 embedding first: python src/embedder.py")
         return
 
-    # Load embedded chunks
-    with open(INPUT_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-
-    chunks: list[dict] = data.get("chunks", [])
-    logger.info(f"Loaded {len(chunks)} embedded chunks from {INPUT_FILE.name}")
-
-    # Connect to persistent ChromaDB
-    logger.info(f"Connecting to ChromaDB at: {VECTORSTORE_DIR}")
-    client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
-
-    # Get or create collection
-    collection = get_or_create_collection(client)
-
-    # Ingest
-    stats = ingest(collection, chunks)
-
-    # Save manifest
-    save_store_manifest(chunks, stats)
-
     logger.info("=" * 60)
-    logger.info(f"Vector store ready at : {VECTORSTORE_DIR}")
-    logger.info(f"Collection            : {COLLECTION_NAME}")
-    logger.info(f"Documents ingested    : {stats['upserted']}")
-    logger.info(f"Total in collection   : {stats['collection_count']}")
+    logger.info("Vector store ready at : %s", VECTORSTORE_DIR)
+    logger.info("Collection            : %s", COLLECTION_NAME)
+    logger.info("Total in collection   : %s", count)
     logger.info("=" * 60)
-
-    # Smoke test
-    smoke_test(collection)
 
 
 if __name__ == "__main__":

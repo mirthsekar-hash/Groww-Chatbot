@@ -34,11 +34,12 @@ if str(_SRC) not in sys.path:
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from chat_pipeline import get_pipeline
+from vector_store import bootstrap_vector_store, get_chroma_document_count
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -82,10 +83,30 @@ app.add_middleware(
 )
 
 
+def _should_preload_model() -> bool:
+    """Skip heavy embedding preload on Railway/production unless explicitly enabled."""
+    explicit = os.environ.get("PRELOAD_MODEL", "").strip().lower()
+    if explicit in ("0", "false", "no"):
+        return False
+    if explicit in ("1", "true", "yes"):
+        return True
+    if os.environ.get("RAILWAY_ENVIRONMENT") or os.environ.get("ENVIRONMENT") == "production":
+        return False
+    return True
+
+
 @app.on_event("startup")
 def _startup() -> None:
-    preload = os.environ.get("PRELOAD_MODEL", "true").lower() in ("1", "true", "yes")
-    if preload:
+    try:
+        count = bootstrap_vector_store(run_smoke_test=False)
+        logger.info("ChromaDB ready with %s documents.", count)
+    except Exception:
+        logger.exception(
+            "Vector store bootstrap failed; factual queries will error until "
+            "data/processed/embedded_chunks.json is present."
+        )
+
+    if _should_preload_model():
         try:
             get_pipeline().ensure_loaded()
         except Exception:
@@ -93,8 +114,22 @@ def _startup() -> None:
 
 
 @app.get("/api/health")
-def health() -> dict[str, str]:
-    return {"status": "ok"}
+def health() -> dict[str, str | int | bool] | JSONResponse:
+    """
+    Liveness check. Returns 503 when the vector store is empty (common on
+    Railway before bootstrap from embedded_chunks.json).
+    """
+    doc_count = get_chroma_document_count()
+    groq_ok = bool(os.environ.get("GROQ_API_KEY", "").strip())
+    ready = doc_count > 0
+    body: dict[str, str | int | bool] = {
+        "status": "ok" if ready else "degraded",
+        "chroma_documents": doc_count,
+        "groq_configured": groq_ok,
+    }
+    if not ready:
+        return JSONResponse(status_code=503, content=body)
+    return body
 
 
 @app.post("/api/chat", response_model=ChatResponse)

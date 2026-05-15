@@ -205,7 +205,14 @@ def _extract_entities(query: str) -> tuple[str | None, str | None]:
 # ---------------------------------------------------------------------------
 
 def _get_collection(client: chromadb.PersistentClient) -> chromadb.Collection:
-    return client.get_collection(name=COLLECTION_NAME)
+    try:
+        return client.get_collection(name=COLLECTION_NAME)
+    except Exception:
+        # Fresh deploy (e.g. Railway): collection created at API startup bootstrap.
+        return client.get_or_create_collection(
+            name=COLLECTION_NAME,
+            metadata={"hnsw:space": "cosine"},
+        )
 
 
 def _embed_query(query: str, model: SentenceTransformer) -> list[float]:

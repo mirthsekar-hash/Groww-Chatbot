@@ -220,15 +220,19 @@ Inside Railway dashboard:
 
 Variables → Add Variables
 
-Example:
+Example (required for factual chat — **not** on Vercel):
 
 ```env
 GROQ_API_KEY=your_groq_key
 GROQ_MODEL=llama-3.3-70b-versatile
 ENVIRONMENT=production
 # Comma-separated browser origins (your Vercel deployment URL(s))
-CORS_ORIGINS=https://groww-rag-chatbot.vercel.app
+CORS_ORIGINS=https://groww-chatbot-kappa.vercel.app
 ```
+
+The API **bootstraps ChromaDB on startup** from `data/processed/embedded_chunks.json` (the sqlite file is not in git). After deploy, open `https://<your-railway-domain>/api/health` — expect `{"status":"ok","chroma_documents":26,"groq_configured":true}`.
+
+Optional: `PRELOAD_MODEL=true` to load the embedding model at boot (uses more RAM; default is **off** on Railway/production).
 
 Optional (not required for the current FAQ stack):
 
@@ -310,8 +314,10 @@ Unset or `*` keeps permissive `allow_origins=["*"]` for local development. The a
 ## Frontend (Vercel → Environment Variables)
 
 ```env
-BACKEND_URL=https://groww-rag-api.up.railway.app
+BACKEND_URL=https://your-service.up.railway.app
 ```
+
+Example for this project: `BACKEND_URL` = your Railway public URL (no trailing slash). Without this, the UI at [groww-chatbot-kappa.vercel.app](https://groww-chatbot-kappa.vercel.app/) cannot reach the API.
 
 ---
 
