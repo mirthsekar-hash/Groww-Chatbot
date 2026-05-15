@@ -24,6 +24,7 @@ from __future__ import annotations
 import logging
 import os
 import sys
+import threading
 from pathlib import Path
 
 # Allow `uvicorn src.chat_app:app` from repo root: sibling modules live in `src/`.
@@ -83,16 +84,26 @@ app.add_middleware(
 )
 
 
-def _should_preload_model() -> bool:
-    """Skip heavy embedding preload on Railway/production unless explicitly enabled."""
+def _should_preload_embeddings() -> bool:
     explicit = os.environ.get("PRELOAD_MODEL", "").strip().lower()
     if explicit in ("0", "false", "no"):
         return False
-    if explicit in ("1", "true", "yes"):
-        return True
-    if os.environ.get("RAILWAY_ENVIRONMENT") or os.environ.get("ENVIRONMENT") == "production":
-        return False
     return True
+
+
+def _preload_embeddings_background() -> None:
+    """Warm BGE + Chroma in a daemon thread so deploy healthchecks stay fast."""
+    if not _should_preload_embeddings():
+        return
+
+    def _run() -> None:
+        try:
+            get_pipeline().ensure_loaded()
+            logger.info("Embedding model preloaded (background).")
+        except Exception:
+            logger.exception("Background embedding preload failed.")
+
+    threading.Thread(target=_run, daemon=True, name="preload-embeddings").start()
 
 
 @app.on_event("startup")
@@ -106,11 +117,7 @@ def _startup() -> None:
             "data/processed/embedded_chunks.json is present."
         )
 
-    if _should_preload_model():
-        try:
-            get_pipeline().ensure_loaded()
-        except Exception:
-            logger.exception("Model preload failed; will load on first factual query.")
+    _preload_embeddings_background()
 
 
 @app.get("/api/health", response_model=None)

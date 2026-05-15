@@ -234,7 +234,17 @@ CORS_ORIGINS=https://groww-chatbot-kappa.vercel.app
 
 The API **bootstraps ChromaDB on startup** from `data/processed/embedded_chunks.json` (the sqlite file is not in git). After deploy, open `https://<your-railway-domain>/api/health` — expect `{"status":"ok","chroma_documents":26,"groq_configured":true}`.
 
-Optional: `PRELOAD_MODEL=true` to load the embedding model at boot (uses more RAM; default is **off** on Railway/production).
+Embedding model **preloads in a background thread** on API startup (set `PRELOAD_MODEL=false` to disable).
+
+**Latency tuning (Railway variables):**
+
+```env
+GROQ_MODEL=llama-3.1-8b-instant
+PERF_LOG=1
+TORCH_NUM_THREADS=2
+```
+
+`llama-3.1-8b-instant` is the default Groq model (much faster than `llama-3.3-70b-versatile` for short answers). Use `PERF_LOG=1` to see stage timings in Railway logs (`embed+retrieve`, `groq+format`).
 
 Optional (not required for the current FAQ stack):
 

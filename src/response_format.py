@@ -31,6 +31,8 @@ logger = logging.getLogger(__name__)
 BASE_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_MANIFEST = BASE_DIR / "data" / "vectorstore" / "manifest.json"
 
+_manifest_date_cache: dict[Path, str] = {}
+
 _URL_IN_TEXT = re.compile(r"https?://\S+")
 
 # LLM said the provided chunks do not answer the question — do not attach a
@@ -51,6 +53,9 @@ _LLM_DECLINES_CONTEXT_PATTERNS: list[re.Pattern] = [
 
 def _read_manifest_date(manifest_path: Path) -> str:
     """Return YYYY-MM-DD from manifest ingestion_timestamp; fallback to UTC today."""
+    cached = _manifest_date_cache.get(manifest_path)
+    if cached is not None:
+        return cached
     try:
         with open(manifest_path, encoding="utf-8") as f:
             data = json.load(f)
@@ -60,10 +65,14 @@ def _read_manifest_date(manifest_path: Path) -> str:
             dt = datetime.fromisoformat(clean)
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            return dt.date().isoformat()
+            date_str = dt.date().isoformat()
+            _manifest_date_cache[manifest_path] = date_str
+            return date_str
     except (OSError, ValueError, TypeError, json.JSONDecodeError) as e:
         logger.warning("Could not read manifest date from %s: %s", manifest_path, e)
-    return datetime.now(timezone.utc).date().isoformat()
+    date_str = datetime.now(timezone.utc).date().isoformat()
+    _manifest_date_cache[manifest_path] = date_str
+    return date_str
 
 
 def strip_urls_from_text(text: str) -> str:

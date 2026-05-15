@@ -15,7 +15,7 @@ or use `response_format.generate_and_format_response` for both steps.
 
 Environment:
   GROQ_API_KEY   — required for live generation (https://console.groq.com/)
-  GROQ_MODEL     — optional; defaults to llama-3.3-70b-versatile
+  GROQ_MODEL     — optional; defaults to llama-3.1-8b-instant (fast). Use llama-3.3-70b-versatile for max quality.
 """
 
 from __future__ import annotations
@@ -35,10 +35,11 @@ logger = logging.getLogger(__name__)
 # Configuration
 # ---------------------------------------------------------------------------
 
-DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
+# 8b-instant is much faster on Groq for short factual answers (~3 sentences).
+DEFAULT_GROQ_MODEL = "llama-3.1-8b-instant"
 MAX_SENTENCES = 3
-MAX_COMPLETION_TOKENS = 220
-GEN_TEMPERATURE = 0.15
+MAX_COMPLETION_TOKENS = 150
+GEN_TEMPERATURE = 0.1
 
 SYSTEM_INSTRUCTIONS = """You are a facts-only assistant for HDFC Mutual Fund schemes covered in the project corpus.
 
@@ -52,8 +53,25 @@ Hard rules:
 """.format(max_sentences=MAX_SENTENCES)
 
 
+_groq_client: Groq | None = None
+
+
 def _get_model_name() -> str:
     return os.environ.get("GROQ_MODEL", DEFAULT_GROQ_MODEL)
+
+
+def _get_groq_client(*, api_key: str | None = None) -> Groq | None:
+    """Reuse one HTTP client per process (avoids connection setup each request)."""
+    global _groq_client
+    if api_key:
+        return Groq(api_key=api_key)
+    if _groq_client is not None:
+        return _groq_client
+    key = os.environ.get("GROQ_API_KEY", "").strip()
+    if not key:
+        return None
+    _groq_client = Groq(api_key=key)
+    return _groq_client
 
 
 def format_retrieval_context(chunks: list[dict]) -> str:
@@ -134,13 +152,10 @@ def generate_factual_answer(
     messages = build_chat_messages(user_query, context_text)
     model_name = model or _get_model_name()
 
-    client = groq_client
+    client = groq_client or _get_groq_client(api_key=api_key)
     if client is None:
-        key = api_key or os.environ.get("GROQ_API_KEY")
-        if not key:
-            logger.warning("GROQ_API_KEY is not set; cannot call Groq.")
-            return UNKNOWN_ANSWER_RESPONSE
-        client = Groq(api_key=key)
+        logger.warning("GROQ_API_KEY is not set; cannot call Groq.")
+        return UNKNOWN_ANSWER_RESPONSE
 
     try:
         completion = client.chat.completions.create(

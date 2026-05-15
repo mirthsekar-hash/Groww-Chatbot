@@ -12,6 +12,7 @@ import logging
 import threading
 
 from intent_classifier import classify_intent
+from perf import perf_span
 from query_processor import process_query
 from response_format import format_phase25_response, generate_and_format_response
 from retriever import RetrievalResult, load_retrieval_components, retrieve
@@ -54,7 +55,7 @@ class ChatPipeline:
         Phases: 2.1 → 2.2 → (2.3 + 2.4 + 2.5) for factual queries;
         refusals and PII use the same formatting rules as `response_format`.
         """
-        with PIPELINE_LOCK:
+        with perf_span("query+intent"):
             processed = process_query(raw_message)
             if processed.is_rejected:
                 return processed.rejection_reason
@@ -65,9 +66,14 @@ class ChatPipeline:
             if not classified.should_retrieve:
                 return format_phase25_response(classified, empty_retrieval, "")
 
-            self._load_if_needed_nolock()
-            assert self._model is not None and self._chroma_client is not None
-            retrieval = retrieve(classified, self._model, self._chroma_client)
+        retrieval: RetrievalResult
+        with PIPELINE_LOCK:
+            with perf_span("embed+retrieve"):
+                self._load_if_needed_nolock()
+                assert self._model is not None and self._chroma_client is not None
+                retrieval = retrieve(classified, self._model, self._chroma_client)
+
+        with perf_span("groq+format"):
             return generate_and_format_response(classified, retrieval)
 
 

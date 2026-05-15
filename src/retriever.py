@@ -392,6 +392,15 @@ def load_retrieval_components() -> tuple[SentenceTransformer, chromadb.Persisten
     Load the embedding model and ChromaDB client.
     Call once at application startup and pass to retrieve() on each request.
     """
-    model  = SentenceTransformer(EMBEDDING_MODEL)
+    try:
+        import torch
+
+        threads = int(os.environ.get("TORCH_NUM_THREADS", "2"))
+        torch.set_num_threads(max(1, threads))
+    except Exception:
+        pass
+
+    model = SentenceTransformer(EMBEDDING_MODEL)
+    model.eval()
     client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
     return model, client
