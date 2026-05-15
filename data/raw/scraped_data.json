@@ -6,7 +6,7 @@
     "total_urls": 5,
     "successful_scrapes": 5,
     "failed_scrapes": 0,
-    "run_timestamp": "2026-05-13T21:32:02.026664"
+    "run_timestamp": "2026-05-15T06:50:07.317424"
   },
   "funds": [
     {
@@ -16,11 +16,11 @@
       "category": "Equity",
       "sub_category": "Mid Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹216.62",
+      "nav": "₹218.89",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹94,744.72 Cr",
-      "expense_ratio": "0.75%",
+      "expense_ratio": "0.80%",
       "exit_load": "Exit load of 1% if redeemed within 1 year.",
       "benchmark_index": "NIFTY Midcap 150 Total Return Index",
       "fund_managers": [
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-05-13",
+      "last_updated_date": "2026-05-15",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -41,11 +41,11 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹2,104.74",
+      "nav": "₹2,130.76",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹1,00,479.23 Cr",
-      "expense_ratio": "0.99%",
+      "expense_ratio": "0.92%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 500 Total Return Index",
       "fund_managers": [
@@ -53,7 +53,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-05-13",
+      "last_updated_date": "2026-05-15",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -66,11 +66,11 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹249.54",
+      "nav": "₹252.82",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹26,182.15 Cr",
-      "expense_ratio": "0.77%",
+      "expense_ratio": "0.76%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 500 Total Return Index",
       "fund_managers": [
@@ -78,7 +78,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-05-13",
+      "last_updated_date": "2026-05-15",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -91,7 +91,7 @@
       "category": "ELSS • 3Y Lock-in",
       "sub_category": "ELSS",
       "risk_level": "Very High Risk",
-      "nav": "₹1,423.38",
+      "nav": "₹1,436.63",
       "min_sip_amount": "₹500",
       "min_lumpsum_amount": "₹500",
       "aum": "₹15,559.49 Cr",
@@ -103,7 +103,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-05-13",
+      "last_updated_date": "2026-05-15",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -114,11 +114,11 @@
       "category": "Equity",
       "sub_category": "Large Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹1,162.42",
+      "nav": "₹1,176.10",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹38,121.27 Cr",
-      "expense_ratio": "1.09%",
+      "expense_ratio": "0.99%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 100 Total Return Index",
       "fund_managers": [
@@ -126,7 +126,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-05-13",
+      "last_updated_date": "2026-05-15",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
