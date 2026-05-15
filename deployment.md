@@ -450,7 +450,15 @@ Fix:
 
 **Cause:** Railway detected a root **`package.json`** and tried to build the Next.js app. The frontend belongs on **Vercel** only.
 
-**Fix:** Use the repo’s `railway.toml` (`buildCommand = pip install -r requirements.txt`) and **no** root `package.json`. Redeploy the Railway service (not Vercel).
+**Fix:** **No** root `package.json`. Redeploy the Railway service (not Vercel).
+
+---
+
+## Railway: `pip install` exit code **127**
+
+**Cause:** Custom `buildCommand` or Nixpacks `[phases.install]` ran `pip` before Python was on `PATH`.
+
+**Fix:** Use the repo’s minimal `nixpacks.toml` (only `NIXPACKS_PYTHON_VERSION`) and **no** `buildCommand` in `railway.toml` — Nixpacks auto-installs from `requirements.txt`.
 
 ---
 

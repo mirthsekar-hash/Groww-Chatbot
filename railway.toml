@@ -2,8 +2,7 @@
 # Backend lives at repository root (FastAPI `src.chat_app:app`), not in `backend/`.
 [build]
 builder = "nixpacks"
-# Do not run root npm/Next.js — frontend is on Vercel only.
-buildCommand = "pip install -r requirements.txt"
+# Let Nixpacks install deps from requirements.txt (no custom pip command — avoids exit 127).
 
 [deploy]
 startCommand = "python -m uvicorn src.chat_app:app --host 0.0.0.0 --port $PORT"
