@@ -113,8 +113,8 @@ def _startup() -> None:
             logger.exception("Model preload failed; will load on first factual query.")
 
 
-@app.get("/api/health")
-def health() -> dict[str, str | int | bool] | JSONResponse:
+@app.get("/api/health", response_model=None)
+def health() -> JSONResponse:
     """
     Liveness check. Returns 503 when the vector store is empty (common on
     Railway before bootstrap from embedded_chunks.json).
@@ -122,14 +122,13 @@ def health() -> dict[str, str | int | bool] | JSONResponse:
     doc_count = get_chroma_document_count()
     groq_ok = bool(os.environ.get("GROQ_API_KEY", "").strip())
     ready = doc_count > 0
-    body: dict[str, str | int | bool] = {
+    body = {
         "status": "ok" if ready else "degraded",
         "chroma_documents": doc_count,
         "groq_configured": groq_ok,
     }
-    if not ready:
-        return JSONResponse(status_code=503, content=body)
-    return body
+    status_code = 200 if ready else 503
+    return JSONResponse(status_code=status_code, content=body)
 
 
 @app.post("/api/chat", response_model=ChatResponse)
