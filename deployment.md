@@ -212,6 +212,8 @@ Push the **same** GitHub repository used for Vercel (monorepo).
 
 6. Set **Root Directory** to the **repository root** (leave empty / `.`) — **not** `frontend/`. The Python service lives next to `requirements.txt`.
 
+7. Do **not** add a root `package.json` with a `build` script — Railway will try to run `next build` and fail with `next: not found`. Only **Vercel** builds `frontend/`.
+
 ---
 
 # Step 4 — Configure Environment Variables
@@ -444,6 +446,14 @@ Fix:
 
 ---
 
+## Railway: `next: not found` / `npm run build --prefix frontend`
+
+**Cause:** Railway detected a root **`package.json`** and tried to build the Next.js app. The frontend belongs on **Vercel** only.
+
+**Fix:** Use the repo’s `railway.toml` (`buildCommand = pip install -r requirements.txt`) and **no** root `package.json`. Redeploy the Railway service (not Vercel).
+
+---
+
 ## `No FastAPI entrypoint found` on Vercel
 
 **Cause:** Vercel project **Root Directory** is the repository root (`.`), not `frontend/`. Vercel auto-detects Python and looks for `app.py`, while this repo’s API is `src/chat_app.py` and is meant for **Railway**.
@@ -454,7 +464,7 @@ Fix:
 2. **Redeploy** the latest commit.
 3. Do **not** deploy the FastAPI app on Vercel; use **Railway** with `python -m uvicorn src.chat_app:app` (see Backend Deployment above).
 
-If you must keep Root Directory at repo root (not recommended), the repo includes root `vercel.json` + `package.json` that build `frontend/` and `.vercelignore` to skip Python files — **using Root Directory `frontend` is still the correct setup.**
+Root `vercel.json` sets `"rootDirectory": "frontend"` for Vercel. Railway uses `railway.toml` + `nixpacks.toml` for **Python only** (`pip install -r requirements.txt`).
 
 ---
 

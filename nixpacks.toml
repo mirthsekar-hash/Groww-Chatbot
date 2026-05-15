@@ -1,3 +1,9 @@
-# Railway Nixpacks — align Python with CI (see .github/workflows/refresh_data.yml).
+# Railway: Python API only. Frontend deploys on Vercel (frontend/).
 [variables]
 NIXPACKS_PYTHON_VERSION = "3.11"
+
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
