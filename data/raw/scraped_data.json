@@ -6,7 +6,7 @@
     "total_urls": 5,
     "successful_scrapes": 5,
     "failed_scrapes": 0,
-    "run_timestamp": "2026-06-30T07:40:27.339241"
+    "run_timestamp": "2026-07-01T08:00:49.080347"
   },
   "funds": [
     {
@@ -16,7 +16,7 @@
       "category": "Equity",
       "sub_category": "Mid Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹225.32",
+      "nav": "₹226.77",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹97,350.48 Cr",
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-06-30",
+      "last_updated_date": "2026-07-01",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -41,7 +41,7 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹2,201.90",
+      "nav": "₹2,201.72",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹1,01,821.82 Cr",
@@ -53,7 +53,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-06-30",
+      "last_updated_date": "2026-07-01",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -66,7 +66,7 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹262.48",
+      "nav": "₹262.51",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹26,082.42 Cr",
@@ -78,7 +78,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-06-30",
+      "last_updated_date": "2026-07-01",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -91,7 +91,7 @@
       "category": "ELSS • 3Y Lock-in",
       "sub_category": "ELSS",
       "risk_level": "Very High Risk",
-      "nav": "₹1,466.21",
+      "nav": "₹1,466.13",
       "min_sip_amount": "₹500",
       "min_lumpsum_amount": "₹500",
       "aum": "₹15,366.50 Cr",
@@ -103,7 +103,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-06-30",
+      "last_updated_date": "2026-07-01",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -114,7 +114,7 @@
       "category": "Equity",
       "sub_category": "Large Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹1,210.96",
+      "nav": "₹1,211.25",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹37,808.31 Cr",
@@ -126,7 +126,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-06-30",
+      "last_updated_date": "2026-07-01",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
