@@ -570,3 +570,14 @@
 2026-07-03 06:53:21,476 [INFO] Total chunks enriched : 26
 2026-07-03 06:53:21,476 [INFO] Validation warnings   : 0
 2026-07-03 06:53:21,476 [INFO] ============================================================
+2026-07-04 06:38:41,660 [INFO] ============================================================
+2026-07-04 06:38:41,660 [INFO] Phase 1.3 — Metadata Enrichment
+2026-07-04 06:38:41,660 [INFO] ============================================================
+2026-07-04 06:38:41,660 [INFO] Loaded 26 chunks from chunks.json
+2026-07-04 06:38:41,660 [INFO] Loaded 5 fund records from scraped_data.json
+2026-07-04 06:38:41,661 [INFO] Fund lookup built: 10 keys
+2026-07-04 06:38:41,662 [INFO] ============================================================
+2026-07-04 06:38:41,662 [INFO] Enrichment complete. Output saved to: /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/processed/enriched_chunks.json
+2026-07-04 06:38:41,662 [INFO] Total chunks enriched : 26
+2026-07-04 06:38:41,662 [INFO] Validation warnings   : 0
+2026-07-04 06:38:41,662 [INFO] ============================================================
