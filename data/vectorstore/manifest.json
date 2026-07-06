@@ -6,7 +6,7 @@
   "embedding_model": "BAAI/bge-small-en",
   "embedding_dimension": 384,
   "distance_metric": "cosine",
-  "total_documents": 22,
+  "total_documents": 26,
   "chunk_types": [
     "benchmark",
     "elss_tax_benefit",
@@ -17,11 +17,11 @@
   ],
   "schemes": [
     "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "HDFC Flexi Cap Direct Plan Growth",
     "HDFC Focused Fund Direct Growth",
     "HDFC Large Cap Fund Direct Growth",
-    "HDFC Mid Cap Fund Direct Growth",
-    "Welcome to Groww"
+    "HDFC Mid Cap Fund Direct Growth"
   ],
-  "ingestion_timestamp": "2026-07-05T06:58:53.279122",
+  "ingestion_timestamp": "2026-07-06T08:08:37.935893",
   "query_prefix": "Represent this sentence for searching relevant passages: <query>"
 }
