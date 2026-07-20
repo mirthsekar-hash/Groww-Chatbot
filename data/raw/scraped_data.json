@@ -6,7 +6,7 @@
     "total_urls": 5,
     "successful_scrapes": 5,
     "failed_scrapes": 0,
-    "run_timestamp": "2026-07-19T06:17:21.375545"
+    "run_timestamp": "2026-07-20T06:36:48.625075"
   },
   "funds": [
     {
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-07-19",
+      "last_updated_date": "2026-07-20",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -53,7 +53,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-07-19",
+      "last_updated_date": "2026-07-20",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -78,7 +78,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-07-19",
+      "last_updated_date": "2026-07-20",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -103,7 +103,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-07-19",
+      "last_updated_date": "2026-07-20",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -126,7 +126,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-07-19",
+      "last_updated_date": "2026-07-20",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
