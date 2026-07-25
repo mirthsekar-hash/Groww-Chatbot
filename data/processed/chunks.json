@@ -11,18 +11,18 @@
     "total_estimated_tokens": 1237,
     "max_chunk_tokens": 85,
     "max_tokens_limit": 512,
-    "run_timestamp": "2026-07-24T06:16:04.751455"
+    "run_timestamp": "2026-07-25T06:08:19.316163"
   },
   "chunks": [
     {
       "chunk_id": "0985636eb7646742",
       "chunk_type": "overview",
-      "text": "HDFC Mid Cap Fund Direct Growth is an Equity mutual fund in the Mid Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,00,858.31 Cr. The latest NAV is ₹226.90. The fund is managed by Chirag Setalvad and Dhruv Muchhal.",
+      "text": "HDFC Mid Cap Fund Direct Growth is an Equity mutual fund in the Mid Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,00,858.31 Cr. The latest NAV is ₹227.32. The fund is managed by Chirag Setalvad and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 79
     },
@@ -34,7 +34,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 34
     },
@@ -46,7 +46,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 22
     },
@@ -58,7 +58,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 48
     },
@@ -70,31 +70,31 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 37
     },
     {
       "chunk_id": "58cd10acd68f24eb",
       "chunk_type": "overview",
-      "text": "HDFC Flexi Cap Direct Plan Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,06,495.63 Cr. The latest NAV is ₹2,209.34. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
+      "text": "HDFC Flexi Cap Direct Plan Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,06,495.63 Cr. The latest NAV is ₹2,208.41. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 80
     },
     {
       "chunk_id": "7cc5ca1b75a33703",
       "chunk_type": "expense_ratio",
-      "text": "The expense ratio of HDFC Flexi Cap Direct Plan Growth is 0.77%. This is the annual fee charged by HDFC Mutual Fund for managing the scheme.",
+      "text": "The expense ratio of HDFC Flexi Cap Direct Plan Growth is 0.75%. This is the annual fee charged by HDFC Mutual Fund for managing the scheme.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 35
     },
@@ -106,7 +106,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 22
     },
@@ -118,7 +118,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 48
     },
@@ -130,31 +130,31 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 36
     },
     {
       "chunk_id": "130893821d36d98b",
       "chunk_type": "overview",
-      "text": "HDFC Focused Fund Direct Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹27,303.27 Cr. The latest NAV is ₹263.53. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
+      "text": "HDFC Focused Fund Direct Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹27,303.27 Cr. The latest NAV is ₹263.17. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 79
     },
     {
       "chunk_id": "445005f964cb8f2c",
       "chunk_type": "expense_ratio",
-      "text": "The expense ratio of HDFC Focused Fund Direct Growth is 0.76%. This is the annual fee charged by HDFC Mutual Fund for managing the scheme.",
+      "text": "The expense ratio of HDFC Focused Fund Direct Growth is 0.78%. This is the annual fee charged by HDFC Mutual Fund for managing the scheme.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 34
     },
@@ -166,7 +166,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 22
     },
@@ -178,7 +178,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 48
     },
@@ -190,19 +190,19 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 35
     },
     {
       "chunk_id": "a9a916530fe82a26",
       "chunk_type": "overview",
-      "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is an ELSS • 3Y Lock-in mutual fund in the ELSS sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹15,685.17 Cr. The latest NAV is ₹1,471.83. The fund is managed by Amar Kalkundrikar and Dhruv Muchhal.",
+      "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is an ELSS • 3Y Lock-in mutual fund in the ELSS sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹15,685.17 Cr. The latest NAV is ₹1,472.79. The fund is managed by Amar Kalkundrikar and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 85
     },
@@ -214,7 +214,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 37
     },
@@ -226,7 +226,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 62
     },
@@ -238,7 +238,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 51
     },
@@ -250,7 +250,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 38
     },
@@ -262,19 +262,19 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 84
     },
     {
       "chunk_id": "9c999b36cd0068d3",
       "chunk_type": "overview",
-      "text": "HDFC Large Cap Fund Direct Growth is an Equity mutual fund in the Large Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹39,023.69 Cr. The latest NAV is ₹1,220.85. The fund is managed by Rahul Baijal and Dhruv Muchhal.",
+      "text": "HDFC Large Cap Fund Direct Growth is an Equity mutual fund in the Large Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹39,023.69 Cr. The latest NAV is ₹1,215.98. The fund is managed by Rahul Baijal and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 80
     },
@@ -286,7 +286,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 35
     },
@@ -298,7 +298,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 22
     },
@@ -310,7 +310,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 48
     },
@@ -322,7 +322,7 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-24"
+        "last_updated_date": "2026-07-25"
       },
       "token_count": 36
     }
