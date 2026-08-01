@@ -6,7 +6,7 @@
     "source_scraped_file": "/home/runner/work/Groww-Chatbot/Groww-Chatbot/data/raw/scraped_data.json",
     "total_chunks": 26,
     "validation_warnings": 0,
-    "enrichment_timestamp": "2026-07-31T06:35:28.396755",
+    "enrichment_timestamp": "2026-08-01T06:20:17.812173",
     "metadata_fields_added": [
       "amc_name",
       "fund_category",
@@ -22,20 +22,20 @@
     {
       "chunk_id": "0985636eb7646742",
       "chunk_type": "overview",
-      "text": "HDFC Mid Cap Fund Direct Growth is an Equity mutual fund in the Mid Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,00,858.31 Cr. The latest NAV is ₹232.75. The fund is managed by Chirag Setalvad and Dhruv Muchhal.",
+      "text": "HDFC Mid Cap Fund Direct Growth is an Equity mutual fund in the Mid Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,00,858.31 Cr. The latest NAV is ₹233.49. The fund is managed by Chirag Setalvad and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Mid Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Fund Overview",
-        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 79
     },
@@ -47,15 +47,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Mid Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Expense Ratio",
-        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 34
     },
@@ -67,15 +67,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Mid Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Exit Load & Redemption",
-        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 22
     },
@@ -87,15 +87,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Mid Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Minimum Investment",
-        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 48
     },
@@ -107,35 +107,35 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Mid Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Mid Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Benchmark Index",
-        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Mid Cap Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 37
     },
     {
       "chunk_id": "58cd10acd68f24eb",
       "chunk_type": "overview",
-      "text": "HDFC Flexi Cap Direct Plan Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,06,495.63 Cr. The latest NAV is ₹2,265.52. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
+      "text": "HDFC Flexi Cap Direct Plan Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹1,06,495.63 Cr. The latest NAV is ₹2,267.18. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Fund Overview",
-        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 80
     },
@@ -147,15 +147,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Expense Ratio",
-        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 35
     },
@@ -167,15 +167,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Exit Load & Redemption",
-        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 22
     },
@@ -187,15 +187,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Minimum Investment",
-        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 48
     },
@@ -207,35 +207,35 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Benchmark Index",
-        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Flexi Cap Direct Plan Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 36
     },
     {
       "chunk_id": "130893821d36d98b",
       "chunk_type": "overview",
-      "text": "HDFC Focused Fund Direct Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹27,303.27 Cr. The latest NAV is ₹268.74. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
+      "text": "HDFC Focused Fund Direct Growth is an Equity mutual fund in the Flexi Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹27,303.27 Cr. The latest NAV is ₹268.89. The fund is managed by Dhruv Muchhal and Amit Ganatra.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Fund Overview",
-        "citation_text": "Source: HDFC Focused Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Focused Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 79
     },
@@ -247,15 +247,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Expense Ratio",
-        "citation_text": "Source: HDFC Focused Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Focused Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 34
     },
@@ -267,15 +267,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Exit Load & Redemption",
-        "citation_text": "Source: HDFC Focused Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Focused Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 22
     },
@@ -287,15 +287,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Minimum Investment",
-        "citation_text": "Source: HDFC Focused Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Focused Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 48
     },
@@ -307,35 +307,35 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Focused Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Flexi Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Benchmark Index",
-        "citation_text": "Source: HDFC Focused Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Focused Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 35
     },
     {
       "chunk_id": "a9a916530fe82a26",
       "chunk_type": "overview",
-      "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is an ELSS • 3Y Lock-in mutual fund in the ELSS sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹15,685.17 Cr. The latest NAV is ₹1,506.55. The fund is managed by Amar Kalkundrikar and Dhruv Muchhal.",
+      "text": "HDFC ELSS Tax Saver Fund Direct Plan Growth is an ELSS • 3Y Lock-in mutual fund in the ELSS sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹15,685.17 Cr. The latest NAV is ₹1,509.84. The fund is managed by Amar Kalkundrikar and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "Fund Overview",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 85
     },
@@ -347,15 +347,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "Expense Ratio",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 37
     },
@@ -367,15 +367,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "Exit Load & Redemption",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 62
     },
@@ -387,15 +387,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "Minimum Investment",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 51
     },
@@ -407,15 +407,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "Benchmark Index",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 38
     },
@@ -427,35 +427,35 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "ELSS • 3Y Lock-in",
         "fund_sub_category": "ELSS",
         "risk_level": "Very High Risk",
         "is_elss": true,
         "chunk_type_label": "ELSS Tax Benefit & Lock-in",
-        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — ELSS Tax Benefit & Lock-in | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC ELSS Tax Saver Fund Direct Plan Growth — ELSS Tax Benefit & Lock-in | Groww\nhttps://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 84
     },
     {
       "chunk_id": "9c999b36cd0068d3",
       "chunk_type": "overview",
-      "text": "HDFC Large Cap Fund Direct Growth is an Equity mutual fund in the Large Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹39,023.69 Cr. The latest NAV is ₹1,240.96. The fund is managed by Rahul Baijal and Dhruv Muchhal.",
+      "text": "HDFC Large Cap Fund Direct Growth is an Equity mutual fund in the Large Cap sub-category offered by HDFC Mutual Fund. The fund is classified as Very High Risk on the riskometer. The fund's Assets Under Management (AUM) is ₹39,023.69 Cr. The latest NAV is ₹1,248.06. The fund is managed by Rahul Baijal and Dhruv Muchhal.",
       "metadata": {
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Large Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Fund Overview",
-        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Fund Overview | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 80
     },
@@ -467,15 +467,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Large Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Expense Ratio",
-        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Expense Ratio | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 35
     },
@@ -487,15 +487,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Large Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Exit Load & Redemption",
-        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Exit Load & Redemption | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 22
     },
@@ -507,15 +507,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Large Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Minimum Investment",
-        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Minimum Investment | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 48
     },
@@ -527,15 +527,15 @@
         "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
         "document_type": "fund_page",
         "scheme_name": "HDFC Large Cap Fund Direct Growth",
-        "last_updated_date": "2026-07-31",
+        "last_updated_date": "2026-08-01",
         "amc_name": "HDFC Mutual Fund",
         "fund_category": "Equity",
         "fund_sub_category": "Large Cap",
         "risk_level": "Very High Risk",
         "is_elss": false,
         "chunk_type_label": "Benchmark Index",
-        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-07-31",
-        "enrichment_timestamp": "2026-07-31T06:35:28.396755"
+        "citation_text": "Source: HDFC Large Cap Fund Direct Growth — Benchmark Index | Groww\nhttps://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\nLast updated from sources: 2026-08-01",
+        "enrichment_timestamp": "2026-08-01T06:20:17.812173"
       },
       "token_count": 36
     }
