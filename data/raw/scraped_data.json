@@ -6,7 +6,7 @@
     "total_urls": 5,
     "successful_scrapes": 5,
     "failed_scrapes": 0,
-    "run_timestamp": "2026-08-05T06:14:17.821906"
+    "run_timestamp": "2026-08-06T06:16:53.556779"
   },
   "funds": [
     {
@@ -16,7 +16,7 @@
       "category": "Equity",
       "sub_category": "Mid Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹235.31",
+      "nav": "₹235.98",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹1,00,858.31 Cr",
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-08-05",
+      "last_updated_date": "2026-08-06",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -37,25 +37,29 @@
     {
       "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
       "document_type": "fund_page",
-      "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
-      "category": "Equity",
-      "sub_category": "Flexi Cap",
-      "risk_level": "Very High Risk",
-      "nav": "₹2,295.52",
-      "min_sip_amount": "₹100",
-      "min_lumpsum_amount": "₹100",
-      "aum": "₹1,06,495.63 Cr",
-      "expense_ratio": "0.74%",
-      "exit_load": "Exit load of 1% if redeemed within 1 year",
-      "benchmark_index": "NIFTY 500 Total Return Index",
-      "fund_managers": [
-        "Dhruv Muchhal",
-        "Amit Ganatra"
-      ],
+      "scheme_name": "Welcome to Groww",
+      "category": null,
+      "sub_category": null,
+      "risk_level": null,
+      "nav": null,
+      "min_sip_amount": null,
+      "min_lumpsum_amount": null,
+      "aum": null,
+      "expense_ratio": null,
+      "exit_load": null,
+      "benchmark_index": null,
+      "fund_managers": [],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-08-05",
+      "last_updated_date": "2026-08-06",
       "scrape_status": "success",
       "scrape_errors": [
+        "Missing field: nav",
+        "Missing field: min_sip_amount",
+        "Missing field: min_lumpsum_amount",
+        "Missing field: aum",
+        "Missing field: expense_ratio",
+        "Missing field: exit_load",
+        "Missing field: benchmark_index",
         "Missing field: elss_lock_in_period"
       ]
     },
@@ -66,7 +70,7 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹272.45",
+      "nav": "₹272.36",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹27,303.27 Cr",
@@ -78,7 +82,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-08-05",
+      "last_updated_date": "2026-08-06",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -91,7 +95,7 @@
       "category": "ELSS • 3Y Lock-in",
       "sub_category": "ELSS",
       "risk_level": "Very High Risk",
-      "nav": "₹1,524.30",
+      "nav": "₹1,527.09",
       "min_sip_amount": "₹500",
       "min_lumpsum_amount": "₹500",
       "aum": "₹15,685.17 Cr",
@@ -103,7 +107,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-08-05",
+      "last_updated_date": "2026-08-06",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -114,7 +118,7 @@
       "category": "Equity",
       "sub_category": "Large Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹1,258.94",
+      "nav": "₹1,259.65",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹39,023.69 Cr",
@@ -126,7 +130,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-08-05",
+      "last_updated_date": "2026-08-06",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
