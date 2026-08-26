@@ -1871,3 +1871,21 @@
 2026-08-25 04:25:49,041 [INFO] Embedding dim   : 384
 2026-08-25 04:25:49,041 [INFO] Validation errors: 0
 2026-08-25 04:25:49,041 [INFO] ============================================================
+2026-08-26 04:26:26,227 [INFO] ============================================================
+2026-08-26 04:26:26,227 [INFO] Phase 1.4 — Embedding (BAAI/bge-small-en)
+2026-08-26 04:26:26,227 [INFO] ============================================================
+2026-08-26 04:26:26,228 [INFO] Loaded 26 enriched chunks from enriched_chunks.json
+2026-08-26 04:26:26,228 [INFO] Loading embedding model: BAAI/bge-small-en
+2026-08-26 04:26:26,228 [INFO] Use pytorch device_name: cpu
+2026-08-26 04:26:26,229 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-08-26 04:26:29,217 [INFO] Model loaded in 3.0s
+2026-08-26 04:26:29,217 [INFO] Embedding dimension: 384
+2026-08-26 04:26:29,217 [INFO] Embedding 26 chunks (batch_size=32)...
+2026-08-26 04:26:30,127 [INFO] Embedding complete in 0.91s  (28.6 chunks/sec)
+2026-08-26 04:26:30,128 [INFO] Validation passed — all embeddings are well-formed.
+2026-08-26 04:26:30,139 [INFO] ============================================================
+2026-08-26 04:26:30,139 [INFO] Output saved to : /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/processed/embedded_chunks.json
+2026-08-26 04:26:30,139 [INFO] Total chunks    : 26
+2026-08-26 04:26:30,139 [INFO] Embedding dim   : 384
+2026-08-26 04:26:30,139 [INFO] Validation errors: 0
+2026-08-26 04:26:30,139 [INFO] ============================================================
