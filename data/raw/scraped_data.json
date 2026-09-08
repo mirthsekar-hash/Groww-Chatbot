@@ -4,9 +4,9 @@
     "description": "Data Sourcing & Collection — HDFC Mutual Fund schemes",
     "amc": "HDFC Mutual Fund",
     "total_urls": 5,
-    "successful_scrapes": 4,
-    "failed_scrapes": 1,
-    "run_timestamp": "2026-09-07T08:41:19.412227"
+    "successful_scrapes": 5,
+    "failed_scrapes": 0,
+    "run_timestamp": "2026-09-08T08:22:47.924200"
   },
   "funds": [
     {
@@ -16,7 +16,7 @@
       "category": "Equity",
       "sub_category": "Mid Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹234.58",
+      "nav": "₹233.47",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹1,05,142.69 Cr",
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-07",
+      "last_updated_date": "2026-09-08",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -41,7 +41,7 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹2,271.32",
+      "nav": "₹2,267.49",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹1,10,736.41 Cr",
@@ -53,7 +53,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-07",
+      "last_updated_date": "2026-09-08",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -62,23 +62,26 @@
     {
       "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
       "document_type": "fund_page",
-      "scheme_name": null,
-      "category": null,
-      "sub_category": null,
-      "risk_level": null,
-      "nav": null,
-      "min_sip_amount": null,
-      "min_lumpsum_amount": null,
-      "aum": null,
-      "expense_ratio": null,
-      "exit_load": null,
-      "benchmark_index": null,
-      "fund_managers": [],
+      "scheme_name": "HDFC Focused Fund Direct Growth",
+      "category": "Equity",
+      "sub_category": "Flexi Cap",
+      "risk_level": "Very High Risk",
+      "nav": "₹267.28",
+      "min_sip_amount": "₹100",
+      "min_lumpsum_amount": "₹100",
+      "aum": "₹27,924.78 Cr",
+      "expense_ratio": "0.80%",
+      "exit_load": "Exit load of 1% if redeemed within 1 year",
+      "benchmark_index": "NIFTY 500 Total Return Index",
+      "fund_managers": [
+        "Dhruv Muchhal",
+        "Amit Ganatra"
+      ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-07",
-      "scrape_status": "timeout",
+      "last_updated_date": "2026-09-08",
+      "scrape_status": "success",
       "scrape_errors": [
-        "Timeout loading page: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        "Missing field: elss_lock_in_period"
       ]
     },
     {
@@ -88,7 +91,7 @@
       "category": "ELSS • 3Y Lock-in",
       "sub_category": "ELSS",
       "risk_level": "Very High Risk",
-      "nav": "₹1,491.78",
+      "nav": "₹1,485.59",
       "min_sip_amount": "₹500",
       "min_lumpsum_amount": "₹500",
       "aum": "₹16,095.45 Cr",
@@ -100,7 +103,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-09-07",
+      "last_updated_date": "2026-09-08",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -111,7 +114,7 @@
       "category": "Equity",
       "sub_category": "Large Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹1,228.55",
+      "nav": "₹1,224.38",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
       "aum": "₹40,197.89 Cr",
@@ -123,7 +126,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-07",
+      "last_updated_date": "2026-09-08",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
