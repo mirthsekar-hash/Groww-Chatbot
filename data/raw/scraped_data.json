@@ -6,7 +6,7 @@
     "total_urls": 5,
     "successful_scrapes": 5,
     "failed_scrapes": 0,
-    "run_timestamp": "2026-09-09T08:25:56.579144"
+    "run_timestamp": "2026-09-10T08:26:25.698940"
   },
   "funds": [
     {
@@ -16,11 +16,11 @@
       "category": "Equity",
       "sub_category": "Mid Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹233.75",
+      "nav": "₹232.27",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
-      "aum": "₹1,05,142.69 Cr",
-      "expense_ratio": "0.74%",
+      "aum": "₹1,08,324.55 Cr",
+      "expense_ratio": "0.75%",
       "exit_load": "Exit load of 1% if redeemed within 1 year.",
       "benchmark_index": "NIFTY Midcap 150 Total Return Index",
       "fund_managers": [
@@ -28,7 +28,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-09",
+      "last_updated_date": "2026-09-10",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -41,10 +41,10 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹2,260.53",
+      "nav": "₹2,245.07",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
-      "aum": "₹1,10,736.41 Cr",
+      "aum": "₹1,13,606.47 Cr",
       "expense_ratio": "0.77%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 500 Total Return Index",
@@ -53,7 +53,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-09",
+      "last_updated_date": "2026-09-10",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -66,11 +66,11 @@
       "category": "Equity",
       "sub_category": "Flexi Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹266.02",
+      "nav": "₹264.36",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
-      "aum": "₹27,924.78 Cr",
-      "expense_ratio": "0.80%",
+      "aum": "₹28,200.67 Cr",
+      "expense_ratio": "0.81%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 500 Total Return Index",
       "fund_managers": [
@@ -78,7 +78,7 @@
         "Amit Ganatra"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-09",
+      "last_updated_date": "2026-09-10",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
@@ -91,11 +91,11 @@
       "category": "ELSS • 3Y Lock-in",
       "sub_category": "ELSS",
       "risk_level": "Very High Risk",
-      "nav": "₹1,478.37",
+      "nav": "₹1,466.31",
       "min_sip_amount": "₹500",
       "min_lumpsum_amount": "₹500",
-      "aum": "₹16,095.45 Cr",
-      "expense_ratio": "1.19%",
+      "aum": "₹15,991.78 Cr",
+      "expense_ratio": "1.20%",
       "exit_load": "Nil",
       "benchmark_index": "NIFTY 500 Total Return Index",
       "fund_managers": [
@@ -103,7 +103,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": "3 years (mandatory under Section 80C)",
-      "last_updated_date": "2026-09-09",
+      "last_updated_date": "2026-09-10",
       "scrape_status": "success",
       "scrape_errors": []
     },
@@ -114,11 +114,11 @@
       "category": "Equity",
       "sub_category": "Large Cap",
       "risk_level": "Very High Risk",
-      "nav": "₹1,218.25",
+      "nav": "₹1,209.16",
       "min_sip_amount": "₹100",
       "min_lumpsum_amount": "₹100",
-      "aum": "₹40,197.89 Cr",
-      "expense_ratio": "1.02%",
+      "aum": "₹39,933.37 Cr",
+      "expense_ratio": "1.03%",
       "exit_load": "Exit load of 1% if redeemed within 1 year",
       "benchmark_index": "NIFTY 100 Total Return Index",
       "fund_managers": [
@@ -126,7 +126,7 @@
         "Dhruv Muchhal"
       ],
       "elss_lock_in_period": null,
-      "last_updated_date": "2026-09-09",
+      "last_updated_date": "2026-09-10",
       "scrape_status": "success",
       "scrape_errors": [
         "Missing field: elss_lock_in_period"
