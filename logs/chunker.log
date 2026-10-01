@@ -2238,3 +2238,19 @@
 2026-09-30 10:02:55,802 [INFO] Largest chunk: ~85 tokens
 2026-09-30 10:02:55,802 [INFO] Duplicates   : 0 removed
 2026-09-30 10:02:55,802 [INFO] ============================================================
+2026-10-01 10:30:29,099 [INFO] ============================================================
+2026-10-01 10:30:29,100 [INFO] Phase 1.2 — Data Parsing & Chunking
+2026-10-01 10:30:29,100 [INFO] ============================================================
+2026-10-01 10:30:29,100 [INFO] Loaded 5 fund records from scraped_data.json
+2026-10-01 10:30:29,100 [INFO]   'HDFC Mid Cap Fund Direct Growth' → 5 chunks produced
+2026-10-01 10:30:29,100 [INFO]   'HDFC Flexi Cap Direct Plan Growth' → 5 chunks produced
+2026-10-01 10:30:29,100 [INFO]   'HDFC Focused Fund Direct Growth' → 5 chunks produced
+2026-10-01 10:30:29,100 [INFO]   'HDFC ELSS Tax Saver Fund Direct Plan Growth' → 6 chunks produced
+2026-10-01 10:30:29,101 [INFO]   'HDFC Large Cap Fund Direct Growth' → 5 chunks produced
+2026-10-01 10:30:29,101 [INFO] ============================================================
+2026-10-01 10:30:29,101 [INFO] Chunking complete. Output saved to: /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/processed/chunks.json
+2026-10-01 10:30:29,101 [INFO] Total chunks : 26
+2026-10-01 10:30:29,101 [INFO] Total tokens : ~1237 (estimated)
+2026-10-01 10:30:29,101 [INFO] Largest chunk: ~85 tokens
+2026-10-01 10:30:29,101 [INFO] Duplicates   : 0 removed
+2026-10-01 10:30:29,102 [INFO] ============================================================
