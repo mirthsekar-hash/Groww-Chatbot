@@ -4148,3 +4148,29 @@
 2026-10-19 09:21:18,100 [INFO] Scraping complete. Output saved to: /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/raw/scraped_data.json
 2026-10-19 09:21:18,100 [INFO] Results: 5 success, 0 failed
 2026-10-19 09:21:18,100 [INFO] ============================================================
+2026-10-20 08:55:20,985 [INFO] ============================================================
+2026-10-20 08:55:20,986 [INFO] Phase 1.1 — Data Sourcing & Collection
+2026-10-20 08:55:20,986 [INFO] Target URLs: 5
+2026-10-20 08:55:20,986 [INFO] ============================================================
+2026-10-20 08:55:24,513 [INFO] Fetching: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+2026-10-20 08:55:28,173 [WARNING] [https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth] Missing field: elss_lock_in_period
+2026-10-20 08:55:28,173 [INFO] Scraped 'HDFC Mid Cap Fund Direct Growth' — 1 missing/error fields
+2026-10-20 08:55:28,174 [INFO] Waiting 2s before next request...
+2026-10-20 08:55:30,174 [INFO] Fetching: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+2026-10-20 08:55:33,524 [WARNING] [https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth] Missing field: elss_lock_in_period
+2026-10-20 08:55:33,524 [INFO] Scraped 'HDFC Flexi Cap Direct Plan Growth' — 1 missing/error fields
+2026-10-20 08:55:33,524 [INFO] Waiting 2s before next request...
+2026-10-20 08:55:35,524 [INFO] Fetching: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth
+2026-10-20 08:55:38,557 [WARNING] [https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth] Missing field: elss_lock_in_period
+2026-10-20 08:55:38,557 [INFO] Scraped 'HDFC Focused Fund Direct Growth' — 1 missing/error fields
+2026-10-20 08:55:38,557 [INFO] Waiting 2s before next request...
+2026-10-20 08:55:40,557 [INFO] Fetching: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+2026-10-20 08:55:43,484 [INFO] Scraped 'HDFC ELSS Tax Saver Fund Direct Plan Growth' — 0 missing/error fields
+2026-10-20 08:55:43,484 [INFO] Waiting 2s before next request...
+2026-10-20 08:55:45,484 [INFO] Fetching: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+2026-10-20 08:55:48,455 [WARNING] [https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth] Missing field: elss_lock_in_period
+2026-10-20 08:55:48,455 [INFO] Scraped 'HDFC Large Cap Fund Direct Growth' — 1 missing/error fields
+2026-10-20 08:55:48,516 [INFO] ============================================================
+2026-10-20 08:55:48,516 [INFO] Scraping complete. Output saved to: /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/raw/scraped_data.json
+2026-10-20 08:55:48,516 [INFO] Results: 5 success, 0 failed
+2026-10-20 08:55:48,516 [INFO] ============================================================
