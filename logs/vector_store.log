@@ -2881,3 +2881,20 @@
 2026-10-26 09:25:02,235 [INFO] Collection            : hdfc_mutual_funds
 2026-10-26 09:25:02,235 [INFO] Total in collection   : 26
 2026-10-26 09:25:02,235 [INFO] ============================================================
+2026-10-27 09:23:33,373 [INFO] ============================================================
+2026-10-27 09:23:33,373 [INFO] Phase 1.4 — Vector Storage (ChromaDB)
+2026-10-27 09:23:33,373 [INFO] ============================================================
+2026-10-27 09:23:33,480 [INFO] Bootstrapping ChromaDB from embedded_chunks.json …
+2026-10-27 09:23:33,493 [INFO] Collection 'hdfc_mutual_funds' ready (existing docs: 0)
+2026-10-27 09:23:33,493 [INFO] Upserting 26 chunks into 'hdfc_mutual_funds'...
+2026-10-27 09:23:33,516 [INFO] Upsert complete. Collection now contains 26 documents.
+2026-10-27 09:23:33,517 [INFO] Manifest saved to: /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/vectorstore/manifest.json
+2026-10-27 09:23:33,517 [INFO] Vector store bootstrap complete: 26 documents.
+2026-10-27 09:23:37,618 [INFO] Running smoke test queries...
+2026-10-27 09:23:37,619 [INFO] Use pytorch device_name: cpu
+2026-10-27 09:23:37,619 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en
+2026-10-27 09:23:38,191 [INFO] ============================================================
+2026-10-27 09:23:38,191 [INFO] Vector store ready at : /home/runner/work/Groww-Chatbot/Groww-Chatbot/data/vectorstore
+2026-10-27 09:23:38,192 [INFO] Collection            : hdfc_mutual_funds
+2026-10-27 09:23:38,192 [INFO] Total in collection   : 26
+2026-10-27 09:23:38,192 [INFO] ============================================================
